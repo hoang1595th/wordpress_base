@@ -1,5 +1,5 @@
 <!-- Header Menu -->
-<ul class="navbar-nav">
+<ul class="navbar-nav flex">
 	<?php
 	$menu = wp_get_menu_array('main-menu'); 
 	$menu_html = '';

@@ -1,0 +1,41 @@
+/*----------  Color  ----------*/
+/*----------  common  ----------*/
+.section {
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+/*----------  Flex  ----------*/
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex--reverse {
+  flex-direction: row-reverse;
+}
+
+.flex--align-center {
+  align-items: center;
+}
+
+.flex--justify-center {
+  justify-content: center;
+}
+
+.flex--1 {
+  flex-grow: 1;
+}
+
+.flex--end {
+  justify-content: flex-end;
+}
+
+/*----------  padding  ----------*/
+.p-y-10 {
+  padding: 10px 0;
+}

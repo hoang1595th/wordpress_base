@@ -1,3 +1,10 @@
 #header__top {
   background-color: #24aeb1;
 }
+#header__top .social-link {
+  padding: 0 8px;
+  color: white;
+}
+#header__top .social-link:hover {
+  color: red;
+}

@@ -8,13 +8,11 @@ gulp.task('sass', function () {
  
 });
  
-gulp.task('default', function(){
- 
-    console.log('default gulp task...')
- 
+gulp.task('default', function(){ 
+    console.log('default gulp task...'); 
 });
 
 gulp.task('watch', function(){
-    gulp.watch('../base/templates/**/*.scss', ['sass']); 
+    gulp.watch('../base/templates/**/*.scss', gulp.series('sass')); 
     // Other watchers
-  })
+});

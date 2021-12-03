@@ -1,3 +1,11 @@
 #header__top{
 	background-color: #24aeb1;
+
+	.social-link{
+		padding: 0 8px;
+		color: white;
+		&:hover {
+			color: red;
+		}
+	}
 }

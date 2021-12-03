@@ -1,0 +1,8 @@
+#header {
+  background-color: white;
+  color: black;
+}
+#header .logo {
+  max-width: 300px;
+  overflow: hidden;
+}
