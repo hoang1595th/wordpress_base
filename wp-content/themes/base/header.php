@@ -26,7 +26,12 @@
 								<?php get_template_part( 'templates/header/search/search_v0' ); ?>
 							</div>
 							<div class="col-xs-12 col-sm-6 col-md-4 flex flex--end">
-								sign in
+								<!-- Sign in / Sign up -->
+								<?php get_template_part( 'templates/header/sign-in-sign-up/sign-in-sign-up_v0' ); ?>
+								<!-- Wishlist -->
+								<?php get_template_part( 'templates/header/wishlist/wishlist-v0' ); ?>
+								<!-- Shopping card -->
+								<?php get_template_part( 'templates/header/shopping-card/shopping-card-v0' ); ?>
 							</div>
 						</div>
 						<!-- Menu -->
